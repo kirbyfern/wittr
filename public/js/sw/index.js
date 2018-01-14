@@ -1,3 +1,5 @@
+// Kirby
+
 var staticCacheName = 'wittr-static-v2';
 
 self.addEventListener('install', function(event) {
