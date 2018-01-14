@@ -27,7 +27,8 @@ IndexController.prototype._registerServiceWorker = function() {
     // TODO: if there's an updated worker already waiting, call
     // indexController._updateReady()
     if (reg.waiting) {
-      return indexController._updateReady();
+      indexController._updateReady(reg.waiting);
+      return;
     }
 
     // - Another way of calling indexController when there is a worker waiting

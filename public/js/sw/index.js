@@ -1,4 +1,5 @@
 // Kirby
+// James
 
 var staticCacheName = 'wittr-static-v2';
 
